@@ -1,8 +1,10 @@
-# Clean & Download — HTML Snapshot Tool
+# LLM HTML Cleaner - Improve LLM visibility by reducing the token size of your pages
 
 A lightweight **bookmarklet/Chrome extension** that transforms any web page into a **lean, bot-friendly HTML snapshot** and downloads it as a file.
 
-The goal: keep SEO and structured data signals, remove scripts/CSS/trackers/empty wrappers, normalise images, and output a **minified HTML file** that is smaller, faster, and easier for bots or LLMs to consume.
+##The goal:
+- Reduce the num. of tokens for LLMs to render content. This is very useful for large websites (100k plus pages). reduce the tokens / file size ensures that LLMs will add your content to training models.
+- keep SEO and structured data signals, remove scripts/CSS/trackers/empty wrappers, normalise images, and output a **minified HTML file** that is smaller, faster, and easier for bots or LLMs to consume.
 
 ---
 
