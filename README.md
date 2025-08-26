@@ -2,9 +2,7 @@
 
 A lightweight **bookmarklet/Chrome extension** that transforms any web page into a **lean, bot-friendly HTML snapshot** and downloads it as a file.
 
-##The goal:
-- Create a clean HTML to reduce the num. of tokens for LLMs to render a page, useful for extremely large websites. Can be used for example on a CDN such as cloudflare worker to strip html if user agent includes bot or llm.
-- keep SEO and structured data signals, remove scripts/CSS/trackers/empty wrappers, normalise images, and output a **minified HTML file** that is smaller, faster, and easier for bots or LLMs to consume.
+The goal: keep SEO and structured data signals, remove scripts/CSS/trackers/empty wrappers, normalise images, and output a **minified HTML file** that is smaller, faster, and easier for bots or LLMs to consume.
 
 ---
 
@@ -101,7 +99,7 @@ A lightweight **bookmarklet/Chrome extension** that transforms any web page into
 
 - Cannot fetch content that only exists in JS runtime if it hasn’t rendered into the DOM.
 - Media/iframe content is removed by design.
-- Images are not recompressed; use an edge tool (e.g. Cloudflare Image Resizing) for smaller files.
+- Images are not recompressed; use an edge tool (e.g., Cloudflare Image Resizing) for smaller files.
 
 ---
 
